@@ -1389,7 +1389,7 @@ psp:
 metrics:
   ## @param metrics.enabled Start a prometheus exporter
   ##
-  enabled: false
+  enabled: true
   ## @param metrics.image.registry PostgreSQL Prometheus Exporter image registry
   ## @param metrics.image.repository PostgreSQL Prometheus Exporter image repository
   ## @param metrics.image.tag PostgreSQL Prometheus Exporter image tag (immutable tags are recommended)
